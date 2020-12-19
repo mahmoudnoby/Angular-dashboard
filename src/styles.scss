@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.p-panelmenu {
+  .p-panelmenu-header {
+    a {
+     padding: 1rem;
+     border: none;
+     background: transparent !important;
+     font-weight: 600;
+     border-radius: 3px;
+     transition: box-shadow 0.2s;
+     color: white !important;
+     width: 100%;
+     &:hover {
+       background-color: #fff;
+       color: #303030 !important;
+      }
+   }
+   &:hover {
+    background-color: #fff;
+  }
+  }
+}
