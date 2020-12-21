@@ -4,13 +4,14 @@ mat-sidenav-container{
 
  mat-sidenav-content{
   padding: 16px;
+  background-color: #f6f6ee;
 }
 
 mat-sidenav {
   padding-top: 19px;
-}
-mat-sidenav{
   width: 220px;
+  background-color: #ff1a1a;
+
 }
 
 
@@ -34,3 +35,11 @@ mat-sidenav{
    }
   }
 }
+
+.mat-toolbar.mat-primary {
+  background: #fff;
+  color: #ff1a1a;
+}
+
+
+
